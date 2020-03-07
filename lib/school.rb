@@ -7,4 +7,4 @@ class School
   end
 end
 
-school = School.new("Minedeo")
+school = School.new("Minadeo Elementary School")
