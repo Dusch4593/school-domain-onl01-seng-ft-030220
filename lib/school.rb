@@ -7,7 +7,10 @@ class School
     @roster = roster 
   end
   
-  def add_student
+  def add_student(name, grade)
+    roster[grade] = []
+    roster[grade] << name 
+  end
 end
 
 school = School.new("Minadeo Elementary School")
