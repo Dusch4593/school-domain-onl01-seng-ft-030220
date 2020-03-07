@@ -1,10 +1,7 @@
 require 'pry'
 
 class School 
-  def initialize(name, roster = {})
-    @name = name 
-    @roster = roster
-  end
+  attr_accessor :name, :roster={}
 end
 
 school = School.new("Minadeo Elementary School")
