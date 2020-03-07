@@ -19,6 +19,10 @@ class School
   def grade(grade_number)
     roster[grade_number]
   end
+  
+  def sort 
+    
+  end
 end
 
 school = School.new("Minadeo Elementary School")
