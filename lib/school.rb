@@ -1,3 +1,5 @@
+binding.pry
+
 class School 
   def initialize(name, roster = {})
     @name = name 
@@ -6,3 +8,4 @@ class School
 end
 
 school = School.new("Minadeo Elementary School")
+binding.pry
