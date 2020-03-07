@@ -9,4 +9,4 @@ class School
 end
 
 school = School.new("Minadeo Elementary School")
-puts school.roster
+puts school.name
