@@ -8,3 +8,4 @@ class School
 end
 
 school = School.new("Minadeo Elementary School")
+school.name 
